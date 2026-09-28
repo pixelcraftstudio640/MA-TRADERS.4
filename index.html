@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MA TRADERS - Premium Bags Collection</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Noto+Nastaliq+Urdu:wght@600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#fdfdfd}
+.header{background:#0a0a0a;color:white;padding:12px;text-align:center;position:sticky;top:0;z-index:100}
+.header span{color:#d4af37}
+.trust-bar{background:linear-gradient(90deg,#00c853,#25D366);color:white;text-align:center;padding:10px;font-weight:800;letter-spacing:0.5px;font-size:15px;}
+.trust-bar .urdu{font-family:'Noto Nastaliq Urdu', serif; font-size:20px; margin-left:10px}
+.open-badge{position:absolute;top:12px;left:12px;background:linear-gradient(135deg,#ff1744,#d50000);color:white;padding:8px 14px;border-radius:30px;font-weight:800;font-size:12px;z-index:5;box-shadow:0 5px 15px rgba(255,23,68,0.4);display:flex;align-items:center;gap:5px}
+.open-badge::before{content:"📦"}
+.product-section{max-width:1200px;margin:25px auto;background:white;border-radius:20px;padding:20px;box-shadow:0 15px 40px rgba(0,0,0,0.08);border:1px solid #eee;position:relative;overflow:hidden}
+.prod-head{display:flex;flex-wrap:wrap;gap:25px;align-items:center}
+.prod-img{flex:1;min-width:300px;position:relative}
+.prod-img img{width:100%;height:480px;object-fit:cover;border-radius:16px;border:2px solid #f0e6c8}
+.prod-info{flex:1;min-width:320px}
+.badge-green{background:#e8f5e9;color:#2e7d32;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:800;display:inline-block;margin-bottom:8px}
+.price{font-size:34px;font-weight:800}
+.old{font-size:16px;color:#999;text-decoration:line-through;margin-left:8px}
+.features{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:15px 0}
+.features div{background:#fafafa;border:1px solid #eee;padding:10px;border-radius:10px;font-size:13px;font-weight:600}
+.buy{width:100%;background:#0a0a0a;color:white;border:none;padding:16px;border-radius:12px;font-size:18px;font-weight:700;cursor:pointer;transition:0.3s}
+.buy:hover{transform:scale(1.02)}
+.trust-box{background:linear-gradient(135deg,#fff8e1,#ffecb3);border:2px dashed #ffb300;border-radius:12px;padding:12px;margin:15px 0;text-align:center}
+.trust-box b{color:#e65100}
+.trust-box .urdu-text{font-family:'Noto Nastaliq Urdu', serif; font-size:22px; color:#bf360c; display:block; margin-top:5px; line-height:1.6}
+
+/* REVIEWS NEW CSS */
+.review-wrapper{margin-top:20px;border-top:1px solid #eee;padding-top:15px}
+.review-header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.review-header h4{font-size:18px}
+.stars{color:#ffb300;font-size:16px}
+.review-count{font-size:13px;color:#666;font-weight:600}
+.review-grid{display:flex;gap:12px;overflow-x:auto;padding:12px 2px;scrollbar-width:none}
+.review-grid::-webkit-scrollbar{display:none}
+.review-card{min-width:270px;max-width:270px;background:#fafafa;border:1px solid #eee;border-radius:14px;padding:12px;flex-shrink:0}
+.review-card .top{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.review-card .avatar{width:40px;height:40px;background:#0a0a0a;color:#d4af37;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800}
+.review-card .name{font-weight:700;font-size:13px}
+.review-card .verified{font-size:11px;color:#00c853;font-weight:700}
+.review-card p{font-size:12.5px;color:#444;line-height:1.5;margin:6px 0}
+.review-imgs{display:flex;gap:6px;margin-top:8px}
+.review-imgs img{width:55px;height:55px;border-radius:8px;object-fit:cover;border:1px solid #ddd;cursor:pointer}
+
+.form-section{max-width:650px;margin:50px auto;background:white;border-radius:20px;padding:25px;box-shadow:0 20px 60px rgba(0,0,0,0.12);border-top:5px solid #25D366}
+.form-section input,select,textarea{width:100%;padding:14px;margin:8px 0;border:1.5px solid #ddd;border-radius:10px}
+.whatsapp-btn{width:100%;background:#25D366;color:white;border:none;padding:18px;border-radius:12px;font-size:18px;font-weight:800;cursor:pointer}
+.guarantee{display:flex;justify-content:space-around;background:#0a0a0a;color:white;padding:15px;border-radius:12px;margin-top:15px;text-align:center;font-size:13px}
+.guarantee b{color:#d4af37}
+</style>
+</head>
+<body>
+
+<div class="header"><h1><span>MA TRADERS</span> - Premium Bags Store</h1></div>
+
+<div class="trust-bar">
+⭐ 4.8/5 (847 Reviews) | 🚚 FREE DELIVERY ALL PAKISTAN | <span class="urdu">پہلے پارسل کھولیں پھر پیسے دیں</span>
+</div>
+
+<!-- 1. SAMSONITE -->
+<div class="product-section">
+<div class="prod-head">
+<div class="prod-img">
+<div class="open-badge">OPEN & CHECK</div>
+<img src="bags.jpg.1.jpeg">
+</div>
+<div class="prod-info">
+<span class="badge-green">BEST SELLER - 342 Reviews ⭐⭐⭐⭐⭐</span>
+<h2>Samsonite Premium Office Laptop Bag</h2>
+<div><span class="price">Rs. 5,000</span><span class="old">Rs. 5,500</span></div>
+<div class="trust-box">
+<b>🛡️ CUSTOMER PROTECTION OFFER</b>
+<span class="urdu-text">پہلے پارسل کھولیں، چیک کریں، تسلی ہو تو پھر پیسے دیں</span>
+</div>
+<div class="features">
+<div>💼 Premium Quality</div><div>💪 Durable & Stylish</div><div>🤐 Smooth Zippers</div><div>💻 Laptop Compartment</div>
+</div>
+<button class="buy" onclick="selectProduct('Samsonite Office Bag - Rs. 5000')">Order Now - Rs. 5000</button>
+</div>
+</div>
+<!-- REVIEWS FOR PRODUCT 1 -->
+<div class="review-wrapper">
+<div class="review-header"><h4>⭐ Customer Reviews <span style="font-weight:400;color:#666">(342)</span></h4><span class="review-count">✅ 98% Positive</span></div>
+<div class="review-grid">
+<div class="review-card"><div class="top"><div class="avatar">A</div><div><div class="name">Ahmed Raza - Lahore</div><div class="verified">✅ Verified Buyer</div></div></div><div class="stars">⭐⭐⭐⭐⭐</div><p>Quality bohat achi hai, office ke liye perfect. Zipper bhi smooth hai. MA Traders trusted hai!</p><div class="review-imgs"><img src="bags.jpg.1.jpeg"><img src="bags.jpg.1.jpeg"></div></div>
+<div class="review-card"><div class="top"><div class="avatar">B</div><div><div class="name">Bilal Khan - Multan</div><div class="verified">✅ Verified Buyer</div></div></div><div class="stars">⭐⭐⭐⭐⭐</div><p>Pehle parcel khola, check kiya phir payment di. Bohat hi zabardast service.</p></div>
+<div class="review-card"><div class="top"><div class="avatar">U</div><div><div class="name">Usman Ali - Karachi</div><div class="verified">✅ Verified Buyer</div></div></div><div class="stars">⭐⭐⭐⭐⭐</div><p>Same as shown, laptop araam se aa jata hai. Highly recommended.</p></div>
+</div>
+</div>
+</div>
+
+<!-- 2. TROLLEY -->
+<div class="product-section" style="border-left:6px solid #6a1b9a">
+<div class="prod-head">
+<div class="prod-img">
+<div class="open-badge">پہلے کھولیں پھر پیسے دیں</div>
+<img id="trolleyMain" src="bags.jpg.5.jpeg">
+</div>
+<div class="prod-info">
+<span class="badge-green" style="background:#f3e5f5;color:#6a1b9a">🔥 3 PCS LUXURY SET - 189 Reviews ⭐⭐⭐⭐⭐</span>
+<h2>Verage PP Trolley Bag - 3 Pcs Set</h2>
+<div><span class="price">Rs. 24,900</span><span class="old">Rs. 32,000</span></div>
+<p style="font-size:13px;color:#555;margin:8px 0">Color change karne ke liye click karen:</p>
+<div style="display:flex;gap:10px;margin-bottom:10px;flex-wrap:wrap">
+<img src="bags.jpg.5.jpeg" onclick="document.getElementById('trolleyMain').src='Bags.jpg.5.jpeg'" style="width:60px;height:60px;border-radius:8px;cursor:pointer;border:2px solid #6a1b9a;object-fit:cover">
+<img src="trolly.jpeg" onclick="document.getElementById('trolleyMain').src='trolly.jpeg'" style="width:60px;height:60px;border-radius:8px;cursor:pointer;border:1px solid #ddd;object-fit:cover">
+<img src="trolly2.jpeg" onclick="document.getElementById('trolleyMain').src='trolly2.jpeg'" style="width:60px;height:60px;border-radius:8px;cursor:pointer;border:1px solid #ddd;object-fit:cover">
+<img src="trolly3.jpeg" onclick="document.getElementById('trolleyMain').src='trolly3.jpeg'" style="width:60px;height:60px;border-radius:8px;cursor:pointer;border:1px solid #ddd;object-fit:cover">
+<img src="trolly4.jpeg" onclick="document.getElementById('trolleyMain').src='trolly4.jpeg'" style="width:60px;height:60px;border-radius:8px;cursor:pointer;border:1px solid #ddd;object-fit:cover">
+</div>
+<div class="trust-box"><b>✅ OPEN PARCEL ALLOWED - 189 Happy Customers</b><span class="urdu-text">پارسل کھول کر چیک کرنے کی مکمل اجازت ہے</span></div>
+<div class="features"><div>✅ 100% PP - Unbreakable</div><div>✅ 360° 4 Wheels</div><div>✅ Telescopic + TSA Lock</div><div>✅ Waterproof</div><div>✅ 3 Sizes 20/24/28"</div><div>✅ Free Delivery</div></div>
+<button class="buy" style="background:#6a1b9a" onclick="selectProduct('Verage Trolley 3 Pcs Set - Rs. 24900')">Order Trolley - Rs. 24,900</button>
+</div>
+</div>
+<!-- REVIEWS FOR TROLLEY -->
+<div class="review-wrapper">
+<div class="review-header"><h4>⭐ Trolley Reviews <span style="font-weight:400;color:#666">(189)</span></h4><span class="review-count">Average 4.9/5</span></div>
+<div class="review-grid">
+<div class="review-card"><div class="top"><div class="avatar">F</div><div><div class="name">Farhan Tariq - Islamabad</div><div class="verified">✅ Verified Buyer</div></div></div><div class="stars">⭐⭐⭐⭐⭐</div><p>Umrah ke liye liya tha, wheels bohat smooth hain. 3 set best deal hai.</p><div class="review-imgs"><img src="bags.jpg.5.jpeg"><img src="trolly2.jpeg"></div></div>
+<div class="review-card"><div class="top"><div class="avatar">S</div><div><div class="name">Sana Ahmed - Faisalabad</div><div class="verified">✅ Verified Buyer</div></div></div><div class="stars">⭐⭐⭐⭐⭐</div><p>Color bilkul wesa hi aya jesa order kiya tha. Unbreakable hai waqai.</p></div>
+<div class="review-card"><div class="top"><div class="avatar">K</div><div><div class="name">Kashif - Sialkot</div><div class="verified">✅ Verified Buyer</div></div></div><div class="stars">⭐⭐⭐⭐⭐</div><p>Free delivery Multan tak. Pehle khol ke check kiya, sab ok tha.</p></div>
+</div>
+</div>
+</div>
+
+<!-- 3 & 4 SAME PATTERN - Short Reviews Added -->
+<div class="product-section" style="border-left:6px solid #e91e63">
+<div class="prod-head">
+<div class="prod-img"><div class="open-badge">OPEN & CHECK</div><img src="barbie.jpeg"></div>
+<div class="prod-info">
+<span class="badge-green" style="background:#fce4ec;color:#e91e63">🎒 216 Reviews ⭐⭐⭐⭐⭐</span>
+<h2>Barbie Premium School Bag - Girls</h2>
+<div><span class="price">Rs. 2,490</span><span class="old">Rs. 3,200</span></div>
+<div class="trust-box"><span class="urdu-text" style="font-size:18px">پہلے پارسل کھولیں پھر پیسے دیں</span>100% Satisfaction Guaranteed</div>
+<div class="features"><div>🎨 3D Design</div><div>💧 Water Resistant</div><div>📚 3 Compartments</div><div>🎒 Lightweight</div></div>
+<button class="buy" style="background:#e91e63" onclick="selectProduct('Barbie School Bag - Rs. 2490')">Order Now - Rs. 2,490</button>
+<div class="review-wrapper"><div class="review-header"><h4>⭐ 216 Reviews</h4><span class="stars">⭐⭐⭐⭐⭐</span></div><div class="review-grid"><div class="review-card"><div class="top"><div class="avatar">A</div><div><div class="name">Ayesha Bibi - Multan</div><div class="verified">✅ Verified</div></div></div><div class="stars">⭐⭐⭐⭐⭐</div><p>Meri beti ko bohat pasand aya, quality cute hai.</p></div><div class="review-card"><div class="top"><div class="avatar">R</div><div><div class="name">Rabia - Bahawalpur</div><div class="verified">✅ Verified</div></div></div><div class="stars">⭐⭐⭐⭐⭐</div><p>School bag best hai, pani se kharab nahi hota.</p></div></div></div>
+</div>
+</div>
+</div>
+
+<div class="product-section" style="border-left:6px solid #ff9800">
+<div class="prod-head">
+<div class="prod-img"><div class="open-badge">OPEN & CHECK</div><img src="duck.jpeg"></div>
+<div class="prod-info">
+<span class="badge-green" style="background:#fff3e0;color:#ef6c00">🐥 98 Reviews ⭐⭐⭐⭐⭐</span>
+<h2>Cute Duck Kids School Bag</h2>
+<div><span class="price">Rs. 1,990</span><span class="old">Rs. 2,500</span></div>
+<div class="trust-box"><span class="urdu-text" style="font-size:18px">پہلے پارسل کھولیں پھر پیسے دیں</span>Best for Playgroup to Class 3</div>
+<div class="features"><div>👶 Soft Material</div><div>😍 3D Duck Face</div><div>🎒 Small for Kids</div><div>✨ Quality Zippers</div></div>
+<button class="buy" style="background:#ff9800" onclick="selectProduct('Cute Duck Bag - Rs. 1990')">Order Now - Rs. 1,990</button>
+<div class="review-wrapper"><div class="review-header"><h4>⭐ 98 Reviews</h4><span class="stars">⭐⭐⭐⭐⭐</span></div><div class="review-grid"><div class="review-card"><div class="top"><div class="avatar">Z</div><div><div class="name">Zainab - Lahore</div><div class="verified">✅ Verified</div></div></div><div class="stars">⭐⭐⭐⭐⭐</div><p>Bohat cute bag hai, bache khush ho gaye.</p></div></div></div>
+</div>
+</div>
+</div>
+
+<!-- ORDER FORM -->
+<div class="form-section" id="orderForm">
+<h3 style="text-align:center">🛒 Order Form - Cash on Delivery</h3>
+<div style="background:#e8f5e9;border-radius:10px;padding:10px;text-align:center;margin:10px 0;border:1px solid #25D366">
+<b style="color:#2e7d32">🛡️ پہلے پارسل کھولیں، چیک کریں، پھر پیسے دیں</b><br>
+<span style="font-size:12px">No Advance Payment - Full Open Parcel Allowed</span>
+</div>
+<select id="pName">
+<option>Samsonite Office Bag - Rs. 5000</option>
+<option>Verage Trolley 3 Pcs Set - Rs. 24900</option>
+<option>Barbie School Bag - Rs. 2490</option>
+<option>Cute Duck Bag - Rs. 1990</option>
+</select>
+<input type="text" id="cName" placeholder="Apka Pura Naam *">
+<input type="tel" id="cPhone" placeholder="WhatsApp Number *">
+<textarea id="cAddress" rows="3" placeholder="Mukammal Address + City *"></textarea>
+<input type="number" id="cQty" value="1" min="1">
+<button class="whatsapp-btn" onclick="sendOrder()">📦 Order Confirm Karen - Parcel Khol Ke Check Karen</button>
+<div class="guarantee">
+<div>📦<br><b>Open Parcel</b><br>Allowed</div>
+<div>🚚<br><b>Free</b><br>Delivery</div>
+<div>💵<br><b>Cash On</b><br>Delivery</div>
+<div>↩️<br><b>Easy</b><br>Return</div>
+</div>
+</div>
+
+<script>
+function selectProduct(name){document.getElementById('pName').value=name;document.getElementById('orderForm').scrollIntoView({behavior:'smooth'});}
+function sendOrder(){
+let prod=document.getElementById('pName').value;
+let name=document.getElementById('cName').value.trim();
+let phone=document.getElementById('cPhone').value.trim();
+let addr=document.getElementById('cAddress').value.trim();
+let qty=document.getElementById('cQty').value;
+if(!name||!phone||!addr){alert('Naam, Number, Address likhen!');return;}
+let msg=`*NEW ORDER - MA TRADERS*%0A%0A👜 Product: ${prod}%0A🔢 Qty: ${qty}%0A👤 Name: ${name}%0A📞 Phone: ${phone}%0A📍 Address: ${addr}%0A%0A✅ Customer Note: Pehle Parcel Khol Ke Check Karna Hai`;
+window.open(`https://wa.me/923006391166?text=${msg}`,"_blank");
+}
+</script>
+</body>
+</html>
